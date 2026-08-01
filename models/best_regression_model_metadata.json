@@ -1,0 +1,9 @@
+{
+    "model_file": "best_regression_model.joblib",
+    "target": "log1p(price_lakh)",
+    "prediction_conversion": "price_lakh = expm1(model_prediction)",
+    "best_model": "LGBMRegressor(learning_rate=0.05, max_depth=8, n_estimators=600,\n              random_state=42, verbose=-1)",
+    "best_parameters": "See printed output in the tuning loop above",
+    "price_r2": 0.807440155145718,
+    "mae_lakh": 43.105195655452405
+}
